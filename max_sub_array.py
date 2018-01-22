@@ -35,7 +35,7 @@ def eff_max(a):
 
 
 def main():
-	a = [-3,2,1,-1,4]
+	a = [1,2,3,-100]
 	print( eff_max(a) )
 
 if __name__ == '__main__':
