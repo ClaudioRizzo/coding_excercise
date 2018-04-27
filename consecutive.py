@@ -37,7 +37,7 @@ def main(numbers):
 				a[g[k]] = k
 
 			res = [x for x in a	if x != None]
-			#print(res)
+			print(res)
 
 			
 
@@ -48,12 +48,12 @@ def main(numbers):
 			 
 
 if __name__ == '__main__':
-	l = []
-	for i in [2**i for i in range(32)]:
-		l = [x for x in range(i*10000)]
+	l = [1,4,2,5,6,9,7]
+	#for i in [2**i for i in range(32)]:
+	#	l = [x for x in range(i*10000)]
 		
 
-		start = time.time()
-		main(l)
-		end = time.time()
-		print( (end - start) )
+	#start = time.time()
+	main(l)
+	#end = time.time()
+	#print( (end - start) )
