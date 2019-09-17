@@ -26,7 +26,7 @@ public class Steps {
             cache.put(stepNumber, 1);
             return 1;
         } else {
-            
+
             cache.put(stepNumber-1, steps(stepNumber-1));
             cache.put(stepNumber-2, steps(stepNumber-2));
             System.out.println(cache.keySet());
